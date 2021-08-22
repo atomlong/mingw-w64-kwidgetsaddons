@@ -1,7 +1,7 @@
 pkgbase = mingw-w64-kwidgetsaddons
 	pkgdesc = Addons to QtWidgets (mingw-w64)
-	pkgver = 5.76.0
-	pkgrel = 2
+	pkgver = 5.85.0
+	pkgrel = 1
 	url = https://community.kde.org/Frameworks
 	arch = any
 	groups = mingw-w64-kf5
@@ -13,11 +13,10 @@ pkgbase = mingw-w64-kwidgetsaddons
 	options = staticlibs
 	options = !strip
 	options = !buildflags
-	source = http://download.kde.org/stable/frameworks/5.76/kwidgetsaddons-5.76.0.tar.xz
-	source = http://download.kde.org/stable/frameworks/5.76/kwidgetsaddons-5.76.0.tar.xz.sig
+	source = http://download.kde.org/stable/frameworks/5.85/kwidgetsaddons-5.85.0.tar.xz
+	source = http://download.kde.org/stable/frameworks/5.85/kwidgetsaddons-5.85.0.tar.xz.sig
 	validpgpkeys = 53E6B47B45CEA3E0D5B7457758D0EE648A48B3BB
-	sha256sums = ab7aa94bb1f63e5bea5cf461349c1add96fd608a73c5b7c9d374e6bf035fcac6
+	sha256sums = 61646fff0c2349bacbf3042f3aaaab460b8939b35157a72973885099d8160490
 	sha256sums = SKIP
 
 pkgname = mingw-w64-kwidgetsaddons
-
